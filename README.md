@@ -2,6 +2,8 @@
 
 This is a framework that logs all REST API requests in your iOS application. You only need to call one initialization method and the framework will do everything by itself. It is also possible to store custom events.
 
+## Requirements
+NetLog is written in Swift 5.0+. Compatible with iOS 13.0+.
 ## Install
 ### CocoaPods
 NetLog is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
@@ -44,3 +46,8 @@ let reqData: [String: Any] = [
             "isNetworkEvent":isNetworkEvent
         ]
 ```
+## Maintainer
+Sergey Zhuravel <zhuravel.s.p@gmail.com> | [@Zhuravel_Sergey](https://twitter.com/Zhuravel_Sergey)
+
+## License
+NetLog is available under the MIT license. See the LICENSE file for more info.
